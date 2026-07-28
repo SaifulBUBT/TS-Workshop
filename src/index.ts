@@ -1,5 +1,5 @@
 // import "./func";
-import { add, greet } from "./func";
+import { add, findById, greet } from "./func";
 import { car, employee } from "./object";
 
 const message: string = "Hello World!";
@@ -19,3 +19,7 @@ console.log(add(5.67, 3.899));
 
 greet("Saiful");
 greet("Alice", "How are u?", "How are u doing?", "Learning TS?");
+
+////
+
+console.log(findById(2));
