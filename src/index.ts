@@ -2,6 +2,8 @@
 import { add, findById, greet } from "./func";
 import { car, employee } from "./object";
 
+import "./typeAllias";
+
 const message: string = "Hello World!";
 
 console.log(message);
