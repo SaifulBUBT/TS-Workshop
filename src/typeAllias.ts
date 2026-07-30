@@ -28,7 +28,7 @@ type Position = User["address"]["position"];
 // const u1 = createUser("Martin", "Joe");
 // console.log(u1);
 
-function printAddress(address: Address) {
+function printAddress(address: Address): void {
   console.log(address.country);
 }
 
